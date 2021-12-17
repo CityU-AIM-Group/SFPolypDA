@@ -6,8 +6,6 @@ Please check [INSTALL.md](INSTALL.md) for installation instructions.
 
 #### Training
 
-## Training
-
 The following command line controls different stages of training:
 
 ```bash
