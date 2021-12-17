@@ -1,0 +1,33 @@
+MODEL:
+  META_ARCHITECTURE: "GeneralizedRCNN"
+  WEIGHT: "./pretrained_models/R-101.pkl"
+  RPN_ONLY: True
+  FCOS_ON: True
+  BACKBONE:
+    CONV_BODY: "R-101-FPN-RETINANET"
+  RESNETS:
+    BACKBONE_OUT_CHANNELS: 256
+  RETINANET:
+    USE_C5: False # FCOS uses P5 instead of C5
+DATASETS:
+  TRAIN: ("augcvc_cocostyle",)
+  TEST: ("hcmus_test_cocostyle",)
+INPUT:
+  MIN_SIZE_TRAIN: (384, 400, 426, 468, 500, 512)
+  MAX_SIZE_TRAIN: 800
+  MIN_SIZE_TEST: 512
+  MAX_SIZE_TEST: 800
+DATALOADER:
+  SIZE_DIVISIBILITY: 32
+SOLVER:
+  BASE_LR: 0.001
+  WEIGHT_DECAY: 0.0001
+  STEPS: (18000, 25000)
+  MAX_ITER: 30000
+  IMS_PER_BATCH: 2
+  WARMUP_METHOD: "constant"
+  ##################
+  SFDA_STAGE: 1
+  ##################
+OUTPUT_DIR:
+  "./outputs/source"
