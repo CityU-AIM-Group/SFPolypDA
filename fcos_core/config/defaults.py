@@ -443,7 +443,7 @@ _C.SOLVER.TEST_ONLY = False
 # -----------------------------------------------------------------------------
 # SFDA
 # -----------------------------------------------------------------------------
-_C.SOLVER.SFDA_ON = False
+_C.SOLVER.SFDA_ON = True
 _C.SOLVER.SFDA_STAGE = 5
 _C.SOLVER.SFDA_K = 4
 _C.SOLVER.SFDA_WEIGHT_S2 = 1
