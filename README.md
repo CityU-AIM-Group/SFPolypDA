@@ -26,7 +26,7 @@ Please check [INSTALL.md](INSTALL.md) for installation instructions.
 
     The following command lines control different stages of training:
 
-    ```bash
+    ```
     # Train the source only model
     python tools/train_net_mcd.py --config-file configs/sf/source_only.yaml SOLVER.SFDA_STAGE 1
 
@@ -41,7 +41,7 @@ Please check [INSTALL.md](INSTALL.md) for installation instructions.
 
     The following command lines control different stages of training:
 
-    ```bash
+    ```
     # Train the source only model
     python tools/train_net_mcd.py --config-file configs/sf/$YOUR YAML FILE$ SOLVER.SFDA_STAGE 5 SOLVER.TEST_ONLY True MODEL.WEIGHT $YOUR .pth WEIGHT$
     ```
