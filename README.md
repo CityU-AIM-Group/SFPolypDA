@@ -42,4 +42,4 @@ Please check [INSTALL.md](INSTALL.md) for installation instructions.
     
 ##### Acknowledgement
 
-The code is based on [FCOS](https://github.com/tianzhi0549/FCOS). For enquiries please contact xliu423-c@my.cityu.edu.hk.
+The code is based on [FCOS](https://github.com/tianzhi0549/FCOS). For enquiries please contact 1155195604@link.cuhk.edu.hk.
