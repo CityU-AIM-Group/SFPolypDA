@@ -2,7 +2,7 @@
 
 :pushpin: This is an official PyTorch implementation of **[TMI 2022]** - [A Source-free Domain Adaptive Polyp Detection Framework with Style Diversification Flow](https://ieeexplore.ieee.org/document/9709278).
 
-> [**A Source-free Domain Adaptive Polyp Detection Framework with Style Diversification Flow**]()
+> [**A Source-free Domain Adaptive Polyp Detection Framework with Style Diversification Flow**]()<br>
 > [Xinyu Liu](https://xinyuliu-jeffrey.github.io/), [Yixuan Yuan](http://www.ee.cuhk.edu.hk/~yxyuan/)<br>The Chinese Univerisity of Hong Kong
 
 # 💡 Installation 
