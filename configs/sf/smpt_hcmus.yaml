@@ -1,6 +1,6 @@
 MODEL:
   META_ARCHITECTURE: "GeneralizedRCNN"
-  WEIGHT: /home/xliu423/content/FCOS/outputs/source/source_ap494ap50729.pth
+  WEIGHT: ./source_ap494ap50729.pth
   BACKBONE:
     CONV_BODY: "R-101-FPN-RETINANET"
   RESNETS:
